@@ -1,0 +1,47 @@
+{
+    "Print to console": {
+        "prefix": "log",
+        "body": [
+        "console.log('$1');"
+        ],
+        "description": "Log output to console"
+    },
+    "Print to console with variable": {
+        "prefix": "logvar",
+        "body": [
+        "console.log('$1', $1);"
+        ],
+        "description": "Log output to console with variable"
+    },
+    "Print to console with variable and label": {
+        "prefix": "logvarlabel",
+        "body": [
+        "console.log('$1', '$2', $2);"
+        ],
+        "description": "Log output to console with variable and label"
+    },
+    "Print to console with variable and label (multiline)": {
+        "prefix": "logvarlabelmulti",
+        "body": [
+        "console.log('$1', '$2',",
+        "$2);"
+        ],
+        "description": "Log output to console with variable and label (multiline)"
+    },
+    "Print to console with variable and label (multiline, no quotes)": {
+        "prefix": "logvarlabelmultinq",
+        "body": [
+        "console.log('$1', $2,",
+        "$2);"
+        ],
+        "description": "Log output to console with variable and label (multiline, no quotes)"
+    },
+    "Print to console with variable and label (multiline, no quotes, no semicolon)": {
+        "prefix": "logvarlabelmultinqnos",
+        "body": [
+        "console.log('$1', $2,",
+        "$2)"
+        ],
+        "description": "Log output to console with variable and label (multiline, no quotes, no semicolon)"
+    }
+}
